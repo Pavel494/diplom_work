@@ -1,0 +1,31 @@
+.Geo400{
+	font-family: 'Geologica', sans-serif;
+}
+
+.Raleway{
+	font-family: 'Mulish', sans-serif;
+}
+
+#TitlePanel{
+	width: 300px;
+	height: 50px;
+	background: linear-gradient(90deg, #5fa5ff, #0046dd);
+	border: 2px solid rgb(40, 112, 255);
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 17px;
+	font-size: 30px;
+}
+
+#TextPanel{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 23px;
+	flex: 0 0 auto;
+	margin-top: 30px;
+	background: linear-gradient(90deg, #98c4ff, #135eff);
+	border: 2px solid rgb(40, 112, 255);
+	border-radius: 10px;
+	max-width: 700px;
+	height: 1400px;
+}

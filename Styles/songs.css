@@ -1,0 +1,64 @@
+.Top{
+    margin-left: 40px;
+    color: #001a51;
+    margin-top: 10px;
+    font-size: 30;
+    animation: TextRainbow 10s infinite linear;
+}
+
+@keyframes TextRainbow {
+    10%{
+        color: #0035a8;
+    }
+    50%{
+        color: #093698;
+    }
+    99%{
+        color: #001a51;
+    }
+}
+
+#TextHits{
+    margin-left: 180px;
+    color: #0051ff;
+}
+
+#Hits{
+    line-height: 60px;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 26px;
+    margin-top: 200px;
+    margin-left: 1300px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgb(0, 57, 202);
+    border-radius: 10px;
+    background-image: url('HitsBlock.png');
+}
+
+#Catalog{
+    width: 300px;
+    font-size: 30px;
+    height: 50px;
+    border: 2px solid rgb(25, 90, 255);
+    outline: 1px solid rgb(0, 72, 255);
+    border-radius: 10px;
+    background-color: rgb(57, 126, 255);
+    margin-top: -700px;
+    padding-top: 20px;
+    margin-left: -1320px;
+}
+
+#SongList{
+    line-height: 30px;
+    text-align: left;
+    margin-top: -1522px;
+    margin-left: -1300px;
+    width: 500px;
+    height: 1360px;
+    border: 2px solid rgb(16, 91, 255);
+    border-radius: 10px;
+    background-color: rgb(79, 135, 255);
+    font-size: 20px;
+}
